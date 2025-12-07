@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import mineImg from '../assets/images/Mine.png';
 
 export function About() {
   return (
@@ -31,7 +32,7 @@ export function About() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden bg-neutral-100">
                 <ImageWithFallback
-                  src="src/assets/images/Mine.png"
+                  src={mineImg}
                   alt="Portrait of Ankit"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />

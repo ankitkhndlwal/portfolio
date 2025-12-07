@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import svgPaths from '../imports/svg-2nlnnfhm0v';
+import onboardingImg from '../assets/images/Onboarding.png';
+import paImg from '../assets/images/PA.png';
+import morImg from '../assets/images/MoR.png';
+import flightImg from '../assets/images/Flight.png';
 
 const caseStudies = [
   {
@@ -8,7 +12,7 @@ const caseStudies = [
     title: 'Fixing a Broken Onboarding',
     description: 'I identified hidden friction killing activation and redesigned the onboarding flow to deliver clarity, trust, and faster value realization.',
     bgColor: '#ffebeb',
-    image: 'src/assets/images/Onboarding.png', // Add image path here
+    image: onboardingImg,
     link: 'https://ankit12.notion.site/Behind-the-Onboarding-Engine-How-We-Unified-Ops-Compliance-and-Merchant-Experience-2b94171b8adb80549534ef518104f0dd',
   },
   {
@@ -16,7 +20,7 @@ const caseStudies = [
     title: 'Designing for Payment Aggregator from Ground Up',
     description: 'I created a full payment-aggregation system with no existing patterns—balancing compliance, business goals, and technical constraints into a scalable workflow.',
     bgColor: '#e8f4ff',
-    image: 'src/assets/images/PA.png', // Add image path here
+    image: paImg,
     link: 'https://medium.com/@ak.ankitk99/crafting-the-payment-aggregator-a-product-design-journey-efd671708f71',
   },
   {
@@ -24,7 +28,7 @@ const caseStudies = [
     title: 'Making a Complex Fintech Stack Understandable',
     description: 'I simplified a dense fintech architecture into a clear, approachable experience that reduced cognitive load and aligned teams.',
     bgColor: '#f0ffe8',
-    image: 'src/assets/images/MoR.png', // Add image path here
+    image: morImg,
     link: 'https://medium.com/@ak.ankitk99/designing-clarity-in-chaos-building-a-merchant-of-record-dashboard-for-global-payments-f5ff234cafac',
   },
   {
@@ -32,7 +36,7 @@ const caseStudies = [
     title: 'Reimagining Flight Tracking(Vibe Coded)',
     description: 'I turned overwhelming aviation data into a calm, intuitive flight-tracking experience focused on what travelers actually need.',
     bgColor: '#fff4e8',
-    image: 'src/assets/images/Flight.png', // Add image path here
+    image: flightImg,
     link: 'https://ankit12.notion.site/airway-20c4171b8adb80b085c5c71133238684',
   },
 ];

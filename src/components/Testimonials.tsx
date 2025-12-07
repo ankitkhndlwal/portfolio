@@ -1,6 +1,11 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import pulkitImg from '../assets/images/Pulkit.jpeg';
+import akshatImg from '../assets/images/Akshat.jpeg';
+import nikhilImg from '../assets/images/Nikhil.jpeg';
+import balramImg from '../assets/images/Balram.jpeg';
+import sajinImg from '../assets/images/Sajin.jpeg';
 
 const testimonials = [
   {
@@ -9,7 +14,7 @@ const testimonials = [
     role: 'COO',
     company: 'Superhealth',
     content: 'I have been taking help of Ankit on designing various things. In a year, he has become my go to person for any design related advice or work. He has pretty solid knowledge of various tools and the ability to learn new ones. I approached him to work on our website based on webflow, even though he did not know webflow initially, he did a great job. The best part is that he is very easy to work with.',
-    avatar: 'src/assets/images/Pulkit.jpeg',
+    avatar: pulkitImg,
     gradient: 'from-rose-50 to-white',
     borderColor: 'hover:border-rose-200',
   },
@@ -19,7 +24,7 @@ const testimonials = [
     role: 'CEO',
     company: 'BrainBox',
     content: 'We hired Ankit for a complex UI/UX project. The work done by him is highly recommendable. He is patient throughout the course of the project and worked on the feedback in the best way possible. Super UI/UX skills. ',
-    avatar: 'src/assets/images/Akshat.jpeg',
+    avatar: akshatImg,
     gradient: 'from-emerald-50 to-white',
     borderColor: 'hover:border-emerald-200',
   },
@@ -29,7 +34,7 @@ const testimonials = [
     role: 'Creative Director',
     company: 'Marketing Agency',
     content: 'Ankit is very passionate and dedicated to his goals, moreover, he is a man of ethics. As a leader, Ankit earns my highest recommendation.',
-    avatar: 'src/assets/images/Nikhil.jpeg',
+    avatar: nikhilImg,
     gradient: 'from-violet-50 to-white',
     borderColor: 'hover:border-violet-200',
   },
@@ -39,7 +44,7 @@ const testimonials = [
     role: 'Product Designer',
     company: 'YesMadam',
     content: 'Ankit Sir is mentoring me in UI-UX Designing for the last 6 months. He is really good at product designing and his design process is really crisp and clear. Learning from him is really wonderful as he knows how real stuff work and that plays a very important role in today\'s competitive and creative field.',
-    avatar: 'src/assets/images/Balram.jpeg',
+    avatar: balramImg,
     gradient: 'from-sky-50 to-white',
     borderColor: 'hover:border-sky-200',
   },
@@ -49,7 +54,7 @@ const testimonials = [
     role: '2D Game/UI Artist',
     company: 'Self',
     content: 'I highly recommend Ankit Khandelwal. He is a talented professional with exceptional technical skills, a great personality and a strong commitment to delivering results. Ankit\'s dedication and creativity make him a valuable asset to any team.',
-    avatar: 'src/assets/images/Sajin.jpeg',
+    avatar: sajinImg,
     gradient: 'from-amber-50 to-white',
     borderColor: 'hover:border-amber-200',
   },
