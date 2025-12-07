@@ -1,6 +1,6 @@
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Linkedin, Mail } from 'lucide-react';
 import { motion } from 'motion/react';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export function Hero() {
   const [showScroll, setShowScroll] = useState(true);
