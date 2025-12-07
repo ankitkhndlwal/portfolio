@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import pulkitImg from '../assets/images/Pulkit.jpeg';
@@ -156,7 +155,7 @@ export function Testimonials() {
           }
         }
         .animate-marquee {
-          animation: marquee 40s linear infinite;
+          animation: marquee 20s linear infinite;
           width: fit-content;
         }
         .marquee-container:hover .animate-marquee {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'motion/react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import mineImg from '../assets/images/Mine.png';
@@ -49,7 +48,7 @@ export function About() {
             viewport={{ once: true }}
           >
             <h2 className="text-5xl tracking-tight text-neutral-900 mb-6">
-              Built by Engineering. Powered by Curiosity. Refined by Design.
+              Built by Engineering. Refined by Design. Powered by Curiosity.
             </h2>
             <div className="space-y-4 text-neutral-600 mb-8">
               <p>

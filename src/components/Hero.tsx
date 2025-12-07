@@ -79,11 +79,13 @@ export function Hero() {
           >
             Crafting beautiful digital experiences using AI with a focus on clean design,
             thoughtful interactions, and pixel-perfect execution. Currently designing for
-            <img 
-              src="https://juspay.io/juspaylogo.svg" 
-              alt="Company Logo" 
-              className="inline-block h-8 ml-2 align-middle grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300" 
-            />
+            <a href="https://juspay.io/in" target="_blank" rel="noopener noreferrer" className="inline-block align-middle">
+              <img 
+                src="https://juspay.io/juspaylogo.svg" 
+                alt="Juspay Logo" 
+                className="h-8 ml-2 grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300" 
+              />
+            </a>
           </motion.p>
 
           <motion.div
