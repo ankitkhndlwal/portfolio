@@ -65,7 +65,7 @@ export function Hero() {
             className="text-6xl tracking-tight text-neutral-900 mb-6"
           >
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              4+ years
+              5+ years
             </span>
             <br />
              of building scalable systems <br />and products
