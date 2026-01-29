@@ -80,7 +80,7 @@ export function Contact() {
           {/* Footer Text */}
           <div className="pt-16">
             <p className="text-neutral-400 text-sm">
-              © 2025. No AI was harmed in the making of this… probably.
+              © 2026. No AI was harmed in the making of this… probably.
             </p>
           </div>
         </motion.div>
