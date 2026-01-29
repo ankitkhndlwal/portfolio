@@ -13,7 +13,7 @@ const caseStudies = [
     description: 'I identified hidden friction killing activation and redesigned the onboarding flow to deliver clarity, trust, and faster value realization.',
     bgColor: '#ffebeb',
     image: onboardingImg,
-    link: 'https://ankit12.notion.site/Behind-the-Onboarding-Engine-How-We-Unified-Ops-Compliance-and-Merchant-Experience-2b94171b8adb80549534ef518104f0dd',
+    link: 'https://ankit12.notion.site/Scalable-Merchant-Onboarding-System-From-fixed-flows-to-configurable-rule-engine-2f14171b8adb8024ad0be90a40b170db',
   },
   {
     id: 2,
